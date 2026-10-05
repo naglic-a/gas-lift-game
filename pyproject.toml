@@ -1,0 +1,16 @@
+[project]
+name = "gas-lift-game"
+version = "0.1.0"
+description = "Multi-Operator Shared Gas Lift Game Theory Simulation"
+readme = "README.md"
+authors = [
+    { name = "anaglic", email = "naglic.e2127.2025@uns.ac.rs" }
+]
+requires-python = ">=3.11"
+dependencies = [
+    "matplotlib>=3.10.0",
+    "numpy>=2.0.0",
+    "pytest>=8.0.0",
+]
+
+[tool.uv.workspace]
